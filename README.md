@@ -9,6 +9,19 @@ Las empresas utilizan equipos de Desarrollo de Operaciones (DevOps) para automat
 
 Go es un lenguaje de programación que ayuda a los equipos de DevOps/SRE con sus características de seguridad, confiabilidad y rapidez en la construcción, así como su capacidad para soportar herramientas de automatización y manejar la infraestructura de desarrollo en crecimiento. Go es útil para cualquier tipo de software, desde pequeños scripts hasta complejas automatizaciones y servicios.
 
+## Aprende Paso a Paso 
+
+1️⃣ [Prepara tu Entorno de Trabajo](1-setup.md)
+2️⃣
+3️⃣
+4️⃣
+5️⃣
+6️⃣
+7️⃣
+8️⃣
+9️⃣
+🔟
+
 #### Recursos utilies
 
 - https://roadmap.sh/golang

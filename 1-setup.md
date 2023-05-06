@@ -4,6 +4,8 @@ Listos para aprender Golang? Vamos 🚀
 
 Página oficial para descargar e instalar Go - [Descargar](https://go.dev/doc/install)
 
+Nota: La siguiente instalación funciona en maquinas Linux, para maquinas Windows o Mac revisa la doc oficial. 
+
 Instalando Go - Linux
 
 Empezamos en nuestro directorio home:
