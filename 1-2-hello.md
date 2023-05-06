@@ -55,3 +55,7 @@ go build hello.go
 Hello World!
 ```
 >
+
+¿Quieres seguir aprendiendo Go?
+
+Te recomiendo el siguiente recurso [Golang Tour](https://go.dev/tour/welcome/1)
