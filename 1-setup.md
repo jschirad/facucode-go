@@ -36,3 +36,7 @@ Verifica la instalación de Go:
 $ go version
 go version go1.19.1 linux/amd64
 ```
+
+Ya tienes tu entorno listo para crear y ejecutar tus programas en Go!
+
+Prueba tu primer programa aqui [Hello World!](1-2-hello.md) 
