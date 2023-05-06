@@ -32,4 +32,6 @@ Go es un lenguaje de programación que ayuda a los equipos de DevOps/SRE con sus
 - https://pkg.go.dev/std
 - https://pkg.go.dev/
 - https://devhints.io/go
+- https://play-with-go.dev/go-fundamentals_go119_en/
+- https://go.dev/tour/welcome/1
 - [Libro Learning Go](https://amzn.to/3nBsAN3)
