@@ -12,15 +12,15 @@ Go es un lenguaje de programación que ayuda a los equipos de DevOps/SRE con sus
 ## Aprende Paso a Paso 
 
 - 1️⃣ [Prepara tu Entorno de Trabajo](1-setup.md)
-- 2️⃣ [Datos y Tipo de Datos](2-data-types-declaration.md)
-- 3️⃣ [Best Practice - Data Types]()
-- 4️⃣ [Agregamos Lógica]()
-- 5️⃣ [Funciones]()
-- 6️⃣ [Punteros]()
-- 7️⃣ [Metodos - Interfaces]()
-- 8️⃣ [Errores]()
-- 9️⃣ [Concurrencia]()
-- 🔟 [Escribimos Test]()
+- 2️⃣ [Datos y Tipo de Datos](2-data-types.md)
+- 3️⃣ [Tipos Compuestos](3-datos-compuestos.md)
+- 4️⃣ [Agregamos Lógica](4-logica.md)
+- 5️⃣ [Funciones](5-funciones.md)
+- 6️⃣ [Punteros](6-punteros.md)
+- 7️⃣ [Metodos - Interfaces](7-metodos-intr.md)
+- 8️⃣ [Errores](8-errores.md)
+- 9️⃣ [Concurrencia](9-concurrencia.md)
+- 🔟 [Escribimos Test](10-testing.md)
 
 #### Recursos utilies
 
