@@ -85,3 +85,80 @@ Las variables complejas en Go son un tipo de dato que se utiliza para representa
 En Go, las variables complejas se definen utilizando la función complex(), que toma dos argumentos: la parte real y la parte imaginaria del número complejo. Por ejemplo, la variable compleja z = complex(3, 4) representa el número complejo 3 + 4i.
 
 Las variables complejas en Go se utilizan principalmente en cálculos matemáticos que involucran funciones como la transformada de Fourier y la teoría de funciones analíticas. También se utilizan en gráficos y visualizaciones, donde se pueden representar números complejos como puntos en un plano complejo.
+
+### Strings o Cadenas de Texto
+
+Como otros lenguajes, Go incluye las variables de tipo _**string**_. El valor _**zero**_ para una cadena de texto es una cadena vacía. Además, Go soporta caracteres [**unicode**](https://conceptodefinicion.de/unicode/) dentro de una cadena. 
+
+Los strings pueden:
+- Comparados con '==' '!='
+- Ordenados con '<' '>' '<=' '>='
+- Concatenados con '+'
+
+Formas de definir un string:
+
+```
+var s string // zero value
+var s string = "Hello there"
+```
+
+### Diferentes maneras de definir una Variable
+
+Go tiene diferentes maneras de definir una variable. Esto tiene una razón de ser para tu programa, cada estilo a la hora de declarar una variable nos está indicando algo en particular. Vamos a verlo.
+
+La forma más común de definir una variable es utilizando la palabra clave **var** y asignándole un tipo y un valor.
+
+```
+var x int = 10 // x nombre de variable - tipo interger - valor 10
+```
+
+Otra forma de expresar lo mismo:
+
+```
+var x = 10
+```
+
+Si queremos declarar una variable y asignarle valor **zero**:
+
+```
+var x int
+```
+
+Podemos declarar múltiples variables en una sola línea:
+```
+var x, y int = 10, 20
+```
+Asignando valor **zero** a múltiples variables:
+```
+var x, y int
+```
+Declarando diferente tipo de variables:
+```
+var x, y = 10, "hello"
+```
+Existe otra manera de declarar múltiples variables de una sola vez:
+```
+var (
+    x int
+    y       = 20
+    z int   = 30
+    d, e    = 40, "hello"
+    f, g string
+)
+```
+
+Go además soporta una "versión corta" para declarar variables, donde reemplazamos **var** con **:=**, vamos a verlo:
+
+```
+var x int = 10
+var x = 10
+x := 10
+
+```
+
+Esto aplica para declarar múltiples variables en una sola línea
+```
+var x, y int = 10, 20
+x, y := 10, 20
+x, y := 10, "hello"
+```
